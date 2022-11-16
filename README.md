@@ -113,7 +113,7 @@ sns.heatmap(df.corr(),annot=True)
 ~~~
 ![image](https://user-images.githubusercontent.com/94226297/202077324-79db0496-ba14-41c2-afaf-4c1fddaab9de.png)
 
-# Data Science:
+# Data Visualization:
 ~~~
 plt.figure(figsize=(20, 7))
 sns.lineplot(data=df, x='temp_min', y='temp_max')
